@@ -1,0 +1,85 @@
+.text-center{
+   text-align: center;
+}
+.box{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .text-center{
+        text-align: center;
+        font-size: 1em;
+     }
+     .box{
+         margin: 0 auto;
+         display: flex;
+         
+    width: 300px;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+     }
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .text-center{
+        text-align: center;
+        font-size: 1em;
+     }
+     .box{
+         margin: 0 auto;
+         display: flex;
+         
+    width: 490px;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         gap: 5px;
+     }
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .text-center{
+        text-align: center;
+        /* font-size: 1em; */
+     }
+     .box{
+         margin: 0 auto;
+         display: flex;
+         
+    width: 720px;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+     }
+
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .text-center{
+        text-align: center;
+        /* font-size: 1em; */
+     }
+     .box{
+         margin: 0 auto;
+         display: flex;
+         
+    width: 1020px;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+     }
+
+
+}
